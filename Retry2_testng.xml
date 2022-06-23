@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="retry2_Suite">
+<listeners>
+<listener class-name="Retry_Failed_2.MyRetryListener"/>
+<!--  <listener class-name="Retry_Failed_2.TestListener"/>-->
+</listeners>
+  <test name="retry2_Test">
+    <classes>
+      <class name="Retry_Failed_2.MyTests"/>
+    </classes>
+  </test> <!-- retry2_Test -->
+</suite> <!-- retry2_Suite -->

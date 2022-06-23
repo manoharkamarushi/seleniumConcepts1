@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" data-provider-thread-count="20">
+  <test name="Test" allow-return-values="true" preserve-order="true">
+    <classes>
+      <class name="selenium_learnAutomation.Asserts_Complete">
+      <methods></methods>
+      <class name="selenium_learnAutomation.FIleUpload_Multiple_autoit"/>
+      <class name="selenium_learnAutomation.DragAndDrop"/>
+      <class name="selenium_learnAutomation.Annotations"/>
+      <class name="selenium_learnAutomation.FileUpload_dynamicParam_autoid"/>
+      <class name="selenium_learnAutomation.Handling_Untrusted_Certificate"/>
+      <class name="selenium_learnAutomation.Annotations_sample1"/>
+      <class name="selenium_learnAutomation.FIleUpload_Robot"/>
+      <class name="selenium_learnAutomation.FileUpload_AutoIT"/>
+      <class name="selenium_learnAutomation.My_Waits"/>
+      <class name="selenium_learnAutomation.Custom_Waits_Usage"/>
+      <class name="selenium_learnAutomation.Annotations_1"/>
+      <class name="selenium_learnAutomation.PatternMatcher"/>
+      <class name="selenium_learnAutomation.Tooltip"/>
+    </classes >
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

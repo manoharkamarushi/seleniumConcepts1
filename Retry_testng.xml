@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="retry_Suite">
+<listeners>
+<listener class-name="Retry_Failed.Retry"></listener>
+</listeners>
+  <test name="retry_Test">
+    <classes>
+      <class name="Retry_Failed.verifyTitle"/>
+    </classes>
+  </test> <!-- retry_Test -->
+</suite> <!-- retry_Suite -->

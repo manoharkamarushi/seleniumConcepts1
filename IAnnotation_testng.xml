@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IAnnotation_Suite">
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+  <test name="IAnnotation_Test">
+  <classes>
+  <class  name="selenium_learnAutomation.Annotations_sample1"></class>
+  </classes>
+  
+  </test> <!-- IAnnotation_Test -->
+</suite> <!-- IAnnotation_Suite -->

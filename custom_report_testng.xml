@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="custom_report_Suite">
+<listeners>
+<listener class-name="customreport.CustomReporter"></listener>
+</listeners>
+  <test name="custom_report_Test">
+    <classes>
+      <class name="customreport.SampleTest"/>
+    </classes>
+  </test> <!-- custom_report_Test -->
+</suite> <!-- custom_report_Suite -->

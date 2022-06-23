@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ddf_Suite">
+<!--  <listeners>
+<listener class-name="DDF.MyListeners"></listener>
+</listeners> -->
+  <test name="ddf_Test">
+    <classes>
+      <class name="DDF.MukeshExcel"></class>
+      </classes>
+  </test> <!-- ddf_Test -->
+</suite> <!-- ddf_Suite -->

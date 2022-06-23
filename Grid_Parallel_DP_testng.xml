@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grid_Parallel_DP_Suite" verbose="2" thread-count="8" parallel="classes">
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+</listeners>
+  <test name="Grid_Parallel_DP_Test">
+    <classes>
+      <class name="grid_Parallel.fillingform_1"/>
+      <class name="grid_Parallel.Calc_1"></class>
+    </classes>
+  </test> <!-- Grid_Parallel_DP_Test -->
+</suite> <!-- Grid_Parallel_DP_Suite -->

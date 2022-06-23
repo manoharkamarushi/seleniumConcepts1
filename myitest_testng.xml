@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="itestlistener_Suite">
+<listeners>
+		<listener class-name="iTtestListener.My_ITestListener"></listener>
+</listeners>
+  <test name="itestlistener_Test" preserve-order="true">
+    <classes>
+      <class name="iTtestListener.MyTest">
+          <methods>
+          		<include name="sample_success"></include>
+          		<exclude name="raiseException"></exclude>
+          		<exclude name="sample_skip"></exclude>
+          		<include name="sample1"></include>
+          		<include name="sample2"></include>
+          </methods>
+         </class> 
+    </classes>
+  </test> <!-- itestlistener_Test -->
+</suite> <!-- itestlistener_Suite -->

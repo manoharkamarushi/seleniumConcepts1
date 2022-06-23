@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="reportng_Suite" parallel="classes">
+
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+
+  <test name="reportNG_Test">
+    <classes>
+      <class name="reportNG.reportNG_Sample"/>
+     </classes>
+  </test> <!-- reportNG_Test -->
+  <test name="test2">
+  <classes> <class name="reportNG.sample3"/>
+  </classes>
+   </test>
+  <test name="test3">
+ <classes> <class name="reportNG.sample2"/>
+ </classes>
+  </test>
+</suite> <!-- reportng_Suite -->

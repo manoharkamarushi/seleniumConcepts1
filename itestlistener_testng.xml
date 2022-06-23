@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="itestlistener_Suite">
+<listeners>
+<listener class-name="iTtestListener.My_ITestListener"></listener>
+</listeners>
+  
+  <test name="itestlistener_Test">
+    <classes>
+      <class name="iTtestListener.MyTest"/>
+    </classes>
+  </test> <!-- itestlistener_Test -->
+  <test name="itestlistener_mytest2">
+  <classes>
+  <class name="iTtestListener.MyTest2"></class>
+  </classes>
+  
+  </test>
+</suite> <!-- itestlistener_Suite -->
