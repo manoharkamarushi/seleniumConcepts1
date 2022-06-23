@@ -59,7 +59,7 @@ public class TestSamplePDEmail extends BaseClass {
 	//After complete execution send pdf report by email
 	@AfterSuite
 	public void tearDown(){
-	sendPDFReportByGMail("mindqselenium15@gmail.com", "mindq@123", "dheeraselenium@gmail.com", "PDF Report", "");
+	sendPDFReportByGMail("test@gmail.com", "test@123", "dheeraselenium@gmail.com", "PDF Report", "");
 	Mailer();
 	}
 	
@@ -129,14 +129,14 @@ public class TestSamplePDEmail extends BaseClass {
 
 	public static void Mailer() {
 		 
-		final String username = "mindqselenium15@gmail.com";
-		final String password = "mindq@123";
+		final String username = "test@gmail.com";
+		final String password = "test@123";
  
 		Properties props = new Properties();
-		props.put("mail.smtp.auth", "true");
-		props.put("mail.smtp.starttls.enable", "true");
-		props.put("mail.smtp.host", "smtp.gmail.com");
-		props.put("mail.smtp.port", "587");
+		props.put("mail.smtp.auth", );
+		props.put("mail.smtp.starttls.enable",);
+		props.put("mail.smtp.host", );
+		props.put("mail.smtp.port", );
  
 		Session session = Session.getInstance(props,
 		  new javax.mail.Authenticator() {
@@ -148,12 +148,12 @@ public class TestSamplePDEmail extends BaseClass {
 		try {
  
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("mindqselenium15@gmail.com"));
+			message.setFrom(new InternetAddress("test@gmail.com"));
 			message.setRecipients(Message.RecipientType.TO,
-				InternetAddress.parse("dheeraselenium@gmail.com"));
+				InternetAddress.parse("test2@gmail.com"));
 			message.setSubject("Testing Subject");
 			message.setText("Dear Madam,"
-				+ "\n\n No spam to my email, please!\n\n Thank you \n MindQSystems");
+				+ "\n\n No spam to my email, please!\n\n Thank you \n testSystems");
  
 			Transport.send(message);
  
