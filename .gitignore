@@ -1,5 +1,6 @@
 # Compiled class file
 *.class
+*.classpath
 
 # Log file
 *.log
@@ -58,3 +59,12 @@ tmp/
 local.properties
 .loadpath
 .factorypath
+################ testNG #################
+src/generated
+target
+test-output
+test-output-tests
+testng.iml
+z_build
+.DS_Store
+outputDir/
